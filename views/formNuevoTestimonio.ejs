@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <title>Nuevo testimonio</title>
+</head>
+
+<body>
+    <section class="text-left">
+        <h1>Nuevo testimonio</h1>
+        <form action="/testimonio" method="POST">
+            <div class="form-group">
+                <label for="Nombre">Nombre y Apellido</label>
+                <input name="nombre" type="text" />
+            </div>
+            <div class="form-group">
+                <label for="Linkedin">Linkedin</label>
+                <input name="linkedin" type="text" />
+            </div>
+            <div class="form-group">
+                <label for="Testimonio">Testimonio</label>
+                <textarea name="mensaje" type="text"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Crear Testimonio</button>
+        </form>
+    </section>
+</body>
+</html>
